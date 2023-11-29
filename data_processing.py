@@ -120,13 +120,15 @@ class Table:
             csv1 = csv.reader(f)
             for i in csv1:
                 if primary_attribute == i[0]:
-                    return f"{primary_attribute_value} from {i[7]} to {update_value}"
+                    return f"{primary_attribute_value} from {update_attribute} to {update_value}"
+
+
 
 
 
 # DB = DB()
-table = Table()
-table.insert_row()
+# table = Table()
+# table.insert_row()
 
 
 
